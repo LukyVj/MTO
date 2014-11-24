@@ -1,0 +1,164 @@
+/*
+Theme for M&TO app 
+author : @lukyvj
+name   : theme.css
+version : 1.0  */
+
+
+/* Monday */
+#wrapper.monday .day:nth-child(2) {
+	background: #D23600 !important ;
+}
+#wrapper.monday .day:nth-child(3) {
+	background: #D95100 !important ;
+}
+#wrapper.monday .day:nth-child(4) {
+	background: #DE6D00 !important ;
+}
+#wrapper.monday .day:nth-child(5) {
+	background: #EE8900 !important ;
+}
+#wrapper.monday .day:nth-child(6) {
+	background: #FCA600 !important ;
+}
+#wrapper.monday .day:nth-child(7) {
+	background: #ffb82f !important ;
+}
+#wrapper.monday .day:nth-child(8) {
+	background: #ffc962 !important ;
+}
+/* Tuesday */
+#wrapper.tuesday .day:nth-child(2) {
+	background: #00305A !important ;
+}
+#wrapper.tuesday .day:nth-child(3) {
+	background: #004B8C !important ;
+}
+#wrapper.tuesday .day:nth-child(4) {
+	background: #0074D9 !important ;
+}
+#wrapper.tuesday .day:nth-child(5) {
+	background: #4192D9 !important ;
+}
+#wrapper.tuesday .day:nth-child(6) {
+	background: #7ABAF2 !important ;
+}
+#wrapper.tuesday .day:nth-child(7) {
+	background: #98CFFF !important ;
+}
+#wrapper.tuesday .day:nth-child(8) {
+	background: #A8DDFF !important ;
+
+}
+/* Wenesday */
+#wrapper.wednesday .day:nth-child(2) {
+	background: #006464 !important ;
+}
+#wrapper.wednesday .day:nth-child(3) {
+	background:#009696 !important ;
+}
+#wrapper.wednesday .day:nth-child(4) {
+	background: #00B2B2  !important ;
+}
+#wrapper.wednesday .day:nth-child(5) {
+	background:#00C2C2 !important ;
+}
+#wrapper.wednesday .day:nth-child(6) {
+	background:#00D4D4 !important ;
+}
+#wrapper.wednesday .day:nth-child(7) {
+	background: #00E3E3 !important ;
+}
+#wrapper.wednesday .day:nth-child(8) {
+	background: #00F2F2 !important ;
+}
+/* Thursday */
+#wrapper.thursday .day:nth-child(2) {
+	background: #36175E !important ;
+}
+#wrapper.thursday .day:nth-child(3) {
+	background:#401775  !important ;
+}
+#wrapper.thursday .day:nth-child(4) {
+	background: #553285 !important ;
+}
+#wrapper.thursday .day:nth-child(5) {
+	background: #7B52AB !important ;
+}
+#wrapper.thursday .day:nth-child(6) {
+	background: #9768D1 !important ;
+}
+#wrapper.thursday .day:nth-child(7) {
+	background: #b894e3 !important ;
+}
+#wrapper.thursday .day:nth-child(8) {
+	background: #dfcef4 !important ;
+}
+
+/* Friday */
+#wrapper.friday .day:nth-child(2) {
+	background: #913b51 !important ;
+}
+#wrapper.friday .day:nth-child(3) {
+	background: #bb4462 !important ;
+}
+#wrapper.friday .day:nth-child(4) {
+	background: #cd657f !important ;
+}
+#wrapper.friday .day:nth-child(5) {
+	background:#e090a4 !important ;
+}
+#wrapper.friday .day:nth-child(6) {
+	background:#E69BB0 !important ;
+}
+#wrapper.friday .day:nth-child(7) {
+	background: #f2c8d2 !important ;
+}
+#wrapper.friday .day:nth-child(8) {
+	background: #FFD2E1 !important ;
+}
+/* saturday */
+#wrapper.saturday .day:nth-child(2) {
+	background: #FFBE00 !important ;
+}
+#wrapper.saturday .day:nth-child(3) {
+	background: #FFD10F !important ;
+}
+#wrapper.saturday .day:nth-child(4) {
+	background:#FFDC00 !important ;
+}
+#wrapper.saturday .day:nth-child(5) {
+	background: #FFDE20 !important ;
+}
+#wrapper.saturday .day:nth-child(6) {
+	background: #ffe659 !important ;
+}
+#wrapper.saturday .day:nth-child(7) {
+	background:#FFF179 !important ;
+}
+#wrapper.saturday .day:nth-child(8) {
+	background: #FFF99F !important ;
+}
+/* Sunday */
+#wrapper.sunday .day:nth-child(2) {
+	background: #247935 !important ;
+}
+#wrapper.sunday .day:nth-child(3) {
+	background: #2F9F46 !important ;
+}
+#wrapper.sunday .day:nth-child(4) {
+	background: #37B951 !important ;
+}
+#wrapper.sunday .day:nth-child(5) {
+	background: #3BC657 !important ;
+}
+#wrapper.sunday .day:nth-child(6) {
+	background: #58dd73 !important ;
+}
+#wrapper.sunday .day:nth-child(7) {
+	background: #82f199 !important ;
+}
+#wrapper.sunday .day:nth-child(8) {
+	background: #c0fecc !important ;
+}
+

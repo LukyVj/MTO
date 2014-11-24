@@ -1,0 +1,593 @@
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import 'keyframes.css';
+@import 'icons.css';
+@import 'theme.css';
+@font-face {
+  font-family: 'vag';
+  src: url('http://dev.web-gate.fr/MTO/assets/fonts/vagrounded-bold.eot?') format('eot'), url('http://dev.web-gate.fr/MTO/assets/fonts/vagrounded-bold.woff') format('woff'), url('http://dev.web-gate.fr/MTO/assets/fonts/vagrounded-bold.ttf') format('truetype'), url('http://dev.web-gate.fr/MTO/assets/fonts/vagrounded-bold.otf') format('opentype'), url('http://dev.web-gate.fr/MTO/assets/fonts/vagrounded-bold.svg') format('svg');
+}/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+	color:#333; 
+}
+::selection{background:transparent}
+*{
+	box-sizing:border-box;
+	font-family: vag, 'vag';
+	-webkit-font-smoothing: antialiased;
+	font-weight: 300;
+	text-shadow:0 -1px 1px rgba(0,0,0,.3);
+	font-size: 1em;
+
+}
+body,html{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	overflow: auto;
+}
+body{
+		background: url(http://dev.web-gate.fr/MTO/assets/img/logo/agsquare.png);
+	}
+	img{
+		display: block;
+		width:280px;
+		margin:40px auto 20px;
+	}
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+section{width:100%;margin: auto;display:block}
+h2{text-align: center;font-size: 2em;font-family: Helvetica}
+.hot-container p { margin-top: 10px; }
+a { text-decoration: none; margin: 0 10px; }
+a span{color:#fff}
+.hot-container {
+	min-height: 100px;
+	margin-top: 100px;
+	width: 100%;
+	text-align: center;
+}
+
+a.btn {
+	display: inline-block;
+	color: #666;
+	background-color: #eee;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-bottom-width: 3px;
+}
+
+	a.btn:hover {
+		background-color: #e3e3e3;
+		border-color: rgba(0,0,0,0.5);
+	}
+	
+	a.btn:active {
+		background-color: #CCC;
+		border-color: rgba(0,0,0,0.9);
+	}
+
+/* blue button */
+
+a.btn.btn-blue {
+	background-color: #699DB6;
+	border-color: rgba(0,0,0,0.3);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+	color: #FFF;
+}
+
+	a.btn.btn-blue:hover {
+		background-color: #4F87A2;
+		border-color: rgba(0,0,0,0.5);
+	}
+	
+	a.btn.btn-blue:active {
+		background-color: #3C677B;
+		border-color: rgba(0,0,0,0.9);
+	}
+
+.zm{zoom:1}
+
+#title{text-align: center;font-size: 3em; padding: 0;margin: 20px 0}
+
+#title span{
+	color:#d23614;
+	-webkit-animation:roll1 3s ease infinite 1s;
+}
+#title span:nth-child(2){
+	color:#ee8921;
+	-webkit-animation:roll1 3s ease infinite 2s;
+}
+#title span:nth-child(3){
+	color:#ffc962;
+	-webkit-animation:roll1 3s ease infinite 3s;
+}
+/**/
+#iphone {
+	display: block;
+	z-index: 1;
+	margin: 0px auto;
+	width: 390px;
+	height: 580px;
+	background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/ip.png)no-repeat;
+
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	background-size: contain;
+}
+
+#player {
+	width: 217px;
+	height: 387px;
+	background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/1);
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	position: relative;
+	top: 92px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 0;
+
+	-webkit-animation: screen 15s linear infinite;
+	-moz-animation: screen 15s linear infinite;
+	-ms-animation: screen 15s linear infinite;
+	-o-animation: screen 15s linear infinite;
+	animation: screen 15s linear infinite;
+}
+
+@keyframes "screen" {
+ 0% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/1.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 9% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/1.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 10% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/2.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 19% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/2.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 20% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/3.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 29% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/3.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 30% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/4.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 39% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/4.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 40% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/5.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 49% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/5.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 50% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/6.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 59% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/6.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 60% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/7.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 69% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/7.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 70% {
+    background: black;
+ }
+ 99% {
+    background: black;
+ }
+
+}
+
+@-moz-keyframes screen {
+ 0% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/1.png);
+   -moz-background-size: cover;
+   background-size: cover;
+ }
+ 9% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/1.png);
+   -moz-background-size: cover;
+   background-size: cover;
+ }
+ 10% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/2.png);
+   -moz-background-size: cover;
+   background-size: cover;
+ }
+ 19% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/2.png);
+   -moz-background-size: cover;
+   background-size: cover;
+ }
+ 20% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/3.png);
+   -moz-background-size: cover;
+   background-size: cover;
+ }
+ 29% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/3.png);
+   -moz-background-size: cover;
+   background-size: cover;
+ }
+ 30% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/4.png);
+   -moz-background-size: cover;
+   background-size: cover;
+ }
+ 39% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/4.png);
+   -moz-background-size: cover;
+   background-size: cover;
+ }
+ 40% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/5.png);
+   -moz-background-size: cover;
+   background-size: cover;
+ }
+ 49% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/5.png);
+   -moz-background-size: cover;
+   background-size: cover;
+ }
+ 50% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/6.png);
+   -moz-background-size: cover;
+   background-size: cover;
+ }
+ 59% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/6.png);
+   -moz-background-size: cover;
+   background-size: cover;
+ }
+ 60% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/7.png);
+   -moz-background-size: cover;
+   background-size: cover;
+ }
+ 69% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/7.png);
+   -moz-background-size: cover;
+   background-size: cover;
+ }
+ 70% {
+   background: black;
+ }
+ 99% {
+   background: black;
+ }
+
+}
+
+@-webkit-keyframes "screen" {
+ 0% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/1.png);
+   -webkit-background-size: cover;
+   background-size: cover;
+ }
+ 9% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/1.png);
+   -webkit-background-size: cover;
+   background-size: cover;
+ }
+ 10% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/2.png);
+   -webkit-background-size: cover;
+   background-size: cover;
+ }
+ 19% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/2.png);
+   -webkit-background-size: cover;
+   background-size: cover;
+ }
+ 20% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/3.png);
+   -webkit-background-size: cover;
+   background-size: cover;
+ }
+ 29% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/3.png);
+   -webkit-background-size: cover;
+   background-size: cover;
+ }
+ 30% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/4.png);
+   -webkit-background-size: cover;
+   background-size: cover;
+ }
+ 39% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/4.png);
+   -webkit-background-size: cover;
+   background-size: cover;
+ }
+ 40% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/5.png);
+   -webkit-background-size: cover;
+   background-size: cover;
+ }
+ 49% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/5.png);
+   -webkit-background-size: cover;
+   background-size: cover;
+ }
+ 50% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/6.png);
+   -webkit-background-size: cover;
+   background-size: cover;
+ }
+ 59% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/6.png);
+   -webkit-background-size: cover;
+   background-size: cover;
+ }
+ 60% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/7.png);
+   -webkit-background-size: cover;
+   background-size: cover;
+ }
+ 69% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/7.png);
+   -webkit-background-size: cover;
+   background-size: cover;
+ }
+ 70% {
+   background: black;
+ }
+ 99% {
+   background: black;
+ }
+
+}
+
+@-ms-keyframes "screen" {
+	0%  {
+	 background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/1.png);
+	background-size: cover;
+}
+ 9% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/1.png);
+   background-size: cover;
+ }
+ 10% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/2.png);
+   background-size: cover;
+ }
+ 19% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/2.png);
+   background-size: cover;
+ }
+ 20% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/3.png);
+   background-size: cover;
+ }
+ 29% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/3.png);
+   background-size: cover;
+ }
+ 30% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/4.png);
+   background-size: cover;
+ }
+ 39% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/4.png);
+   background-size: cover;
+ }
+ 40% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/5.png);
+   background-size: cover;
+ }
+ 49% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/5.png);
+   background-size: cover;
+ }
+ 50% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/6.png);
+   background-size: cover;
+ }
+ 59% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/6.png);
+   background-size: cover;
+ }
+ 60% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/7.png);
+   background-size: cover;
+ }
+ 69% {
+   background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/7.png);
+   background-size: cover;
+ }
+ 70% {
+   background: black;
+ }
+ 99% {
+   background: black;
+ }
+
+}
+
+ @-o-keyframes "screen" {
+	0%  {
+	 background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/1.png);
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+ 9% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/1.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 10% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/2.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 19% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/2.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 20% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/3.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 29% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/3.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 30% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/4.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 39% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/4.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 40% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/5.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 49% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/5.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 50% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/6.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 59% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/6.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 60% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/7.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 69% {
+    background: url(http://dev.web-gate.fr/MTO/assets/img/logo/anim/7.png);
+   	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	background-size: cover;
+ }
+ 70% {
+    background: black;
+ }
+ 99% {
+    background: black;
+ }
+
+@keyframes roll1{
+	0%{	color:#d23614;}
+	50%{	color:#ee8921;}
+	100%{		color:#ffc962;}
+}
+@-o-keyframes roll1{
+	0%{	color:#d23614;}
+	50%{	color:#ee8921;}
+	100%{		color:#ffc962;}
+}
+@-ms-keyframes roll1{
+	0%{	color:#d23614;}
+	50%{	color:#ee8921;}
+	100%{		color:#ffc962;}
+}
+
+@-moz-keyframes roll1{
+	0%{	color:#d23614;}
+	50%{	color:#ee8921;}
+	100%{		color:#ffc962;}
+}
+@-webkit-keyframes roll1{
+	0%{	color:#d23614;}
+	50%{	color:#ee8921;}
+	100%{		color:#ffc962;}
+}
+
+

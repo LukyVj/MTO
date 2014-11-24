@@ -1,0 +1,60 @@
+@keyframes bounce {
+ 0% {
+    bottom: 50px;
+ }
+ 50% {
+    bottom: 40px;
+ }
+ 100% {
+    bottom: 50px;
+ }
+
+}
+@-o-keyframes bounce {
+ 0% {
+    bottom: 50px;
+ }
+ 50% {
+    bottom: 40px;
+ }
+ 100% {
+    bottom: 50px;
+ }
+
+}
+@-ms-keyframes bounce {
+ 0% {
+    bottom: 50px;
+ }
+ 50% {
+    bottom: 40px;
+ }
+ 100% {
+    bottom: 50px;
+ }
+
+}
+@-moz-keyframes bounce {
+ 0% {
+    bottom: 50px;
+ }
+ 50% {
+    bottom: 40px;
+ }
+ 100% {
+    bottom: 50px;
+ }
+
+}
+@-webkit-keyframes bounce {
+ 0% {
+    bottom: 50px;
+ }
+ 50% {
+    bottom: 40px;
+ }
+ 100% {
+    bottom: 50px;
+ }
+
+}

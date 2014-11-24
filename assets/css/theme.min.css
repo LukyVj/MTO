@@ -1,0 +1,13 @@
+/*
+Theme for M&TO app 
+author : @lukyvj
+name   : theme.min.css
+version : 1.0  */
+
+/* Monday */.monday #monday{background:#D23600;}.monday #tuesday{background:#D95100;}.monday #wednesday{background:#DE6D00;}.monday #thursday{background:#EE8900;}.monday #friday{background:#FCA600;}.monday #saturday{background:#ffb82f;}.monday #sunday{background:#ffc962;}/* Tuesday */
+.tuesday #monday{background:#00305A;}.tuesday #tuesday{background:#004B8C;}.tuesday #wednesday{background:#0074D9;}.tuesday #thursday{background:#4192D9;}.tuesday #friday{background:#7ABAF2;}.tuesday #saturday{background:#98CFFF;}.tuesday #sunday{background:#A8DDFF;}/* Wenesday */
+.wednesday #monday{background:#006464;}.wednesday #tuesday{background:#009696;}.wednesday #wednesday{background:#00B2B2;}.wednesday #thursday{background:#00C2C2;}.wednesday #friday{background:#00D4D4;}.wednesday #saturday{background:#00E3E3;}.wednesday #sunday{background:#00F2F2;}/* Thursday */
+.thursday #monday{background:#36175E;}.thursday #tuesday{background:#401775;}.thursday #wednesday{background:#553285;}.thursday #thursday{background:#7B52AB;}.thursday #friday{background:#9768D1;}.thursday #saturday{background:#b894e3;}.thursday #sunday{background:#dfcef4;}/* Friday */
+.friday #monday{background:#913b51;}.friday #tuesday{background:#bb4462;}.friday #wednesday{background:#cd657f;}.friday #thursday{background:#e090a4;}.friday #friday{background:#E69BB0;}.friday #saturday{background:#f2c8d2;}.friday #sunday{background:#FFD2E1;}/* saturday */
+.saturday #monday{background:#FFBE00;}.saturday #tuesday{background:#FFD10F;}.saturday #wednesday{background:#FFDC00;}.saturday #thursday{background:#FFDE20;}.saturday #friday{background:#ffe659;}.saturday #saturday{background:#FFF179;}.saturday #sunday{background:#FFF99F;}/* Sunday */
+.sunday #monday{background:#247935;}.sunday #tuesday{background:#2F9F46;}.sunday #wednesday{background:#37B951;}.sunday #thursday{background:#3BC657;}.sunday #friday{background:#58dd73;}.sunday #saturday{background:#82f199;}.sunday #sunday{background:#c0fecc;}

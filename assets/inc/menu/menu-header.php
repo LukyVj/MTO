@@ -1,0 +1,1 @@
+<div id="header"><a href="#" id="menuClose" class="entypo-left" onclick="die();"></a></div>

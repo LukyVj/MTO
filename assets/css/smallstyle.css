@@ -1,0 +1,151 @@
+
+h2{
+	font-size:1.4em;
+	line-height: 1;
+	display: block;
+	float: left;
+	width:30%;
+	margin-top: 15px;
+}
+.deg{
+font-size:1.8em;
+line-height:2;
+display:block;
+width:100px;
+margin:6px -35px 0 20px;
+padding:0;
+
+}
+.celsius{
+margin: -85px 15%;
+float: left;
+position: absolute;
+-webkit-transform: scale(.6);
+}
+.state{display: none}
+.ic{
+	margin:-15px -10px;
+	-webkit-transform: scale(.9);
+	right: 0px;
+}
+.mention{
+display:block;
+float:left;
+font-size:1.2em;
+padding-left:0px;
+position: absolute;
+display: none;
+}
+#hour{
+display:none;
+}
+
+/* Open state */
+#errorGeo{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+padding:8%;
+text-align:center;
+text-justify:break-word;
+line-height: 1.2;
+font-size: 3.8em;
+background: rgba(0,0,0,.8);
+display: none;
+box-shadow: inset 0 0 100px rgba(0,0,0,.99);
+z-index: 99999;
+color: #fff;
+text-shadow:0 -2px 1px rgba(0,0,0,.4);
+-ms-word-break: break-all;
+     word-break: break-all;
+
+     word-break: break-word;
+
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+        hyphens: auto;
+}
+
+.open{
+	height:100%;
+	position:absolute;
+	z-index: 9;
+	
+}
+.open *{
+text-align: center;
+letter-spacing: 3px
+}
+.open h2{
+	text-align: center;
+	float: none;
+	padding: 0;
+	width:100%;
+	height: 50px;
+	text-align: center;	clear: both;
+	font-size: 3em;
+	line-height: 1.2
+}
+.open .celsius{
+zoom:1;
+margin: -150px 44%;
+float: left;
+position: absolute;
+-webkit-transform: scale(1.2);
+
+}
+.open .deg{
+font-size:4em;
+line-height:2.4;
+text-align:left;
+margin:78% -20px 0 15%;
+padding:0;
+}
+.open .mention{
+	margin:0;
+	margin-top: 18%;
+	width: 100%;
+	display:block;
+	text-align: center;
+	line-height: 0;
+	
+}
+.open .ic{
+	position: absolute;
+	margin: auto -5%;
+	left:0;
+	right:0;
+	top:18%;
+	/*-webkit-transform: scale(3);*/
+	zoom:3.5;
+	
+}
+.open .state{
+display: block;
+position: absolute;
+margin: auto;
+width:100%;
+top:60%;
+text-align: center;
+letter-spacing: 3px}
+
+.margin{
+	display: block;
+	width: 130px;
+	margin:6% auto;
+	zoom:2.6
+}
+
+ #hour{
+position:absolute;
+display:block;
+width:100px;
+margin:85% auto;
+left:0;
+right:0;
+z-index:99999;
+font-size:3em;
+font-weight: 100;
+color:#fff;}

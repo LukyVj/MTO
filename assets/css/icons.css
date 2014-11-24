@@ -1,0 +1,79 @@
+/*icons*/
+i{
+display:block;
+height:100px;
+float:left;
+width:200px;
+}
+.cloud{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Cloud.svg')no-repeat center;
+}
+.cloud-rain{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Cloud-Rain.svg')no-repeat center center;
+}
+.cloud-sun{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Cloud-Sun.svg')no-repeat center;
+}
+.cloud-night{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Cloud-Moon.svg')no-repeat center center;
+}
+.cloud-night-rain{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Cloud-Rain-Moon.svg')no-repeat center center;
+}
+.cloud-sun-rain{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Cloud-Rain-Sun.svg')no-repeat center center;
+}
+.cloud-fog{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Cloud-Fog.svg')no-repeat center center;
+}
+.cloud-snow{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Cloud-Snow-Alt.svg')no-repeat center center;
+}
+.cloud-snow-sun{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Cloud-Snow-Sun-Alt.svg')no-repeat center center;
+}
+.cloud-snow-fall{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Cloud-Snow.svg')no-repeat center center;
+}
+.cloud-snow-sun{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Cloud-Snow-Sun.svg')no-repeat center center;
+}
+.fog{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Cloud-Fog-Alt.svg')no-repeat center center;
+}
+.fog-sun{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Cloud-Fog-Sun-Alt.svg')no-repeat center center;
+}
+.wind{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Wind.svg')no-repeat center center;
+}
+.cloud-wind{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Cloud-Wind.svg')no-repeat center center;
+}
+.cloud-light{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Cloud-Lightning.svg')no-repeat center center;
+}
+.sun{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Sun.svg')no-repeat center center;
+}
+.sun-fifty{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Sun-Lower.svg')no-repeat center center;
+}
+.snow{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Snowflake.svg')no-repeat center center;
+}
+.tornado{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Tornado.svg')no-repeat center center;
+}
+.umbrella{
+background:url('http://dev.web-gate.fr/MTO/assets/img/Umbrella.svg')no-repeat center center;
+}
+
+/**/
+
+.celsius{
+display:block;
+height:100px;
+width: 100px;
+	background:url('http://dev.web-gate.fr/MTO/assets/img/Degrees-Celcius.svg')no-repeat center center;
+}
